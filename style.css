@@ -1,0 +1,121 @@
+#resume ol > li {
+    margin-bottom: 1.5em;
+}
+.duke-systems-link {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.about-columns {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.about-avatar {
+    flex: 0 0 auto;
+}
+.about-text {
+    flex: 1 1 0;
+}
+@media (max-width: 700px) {
+    .about-columns {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+    .about-avatar {
+        margin-bottom: 0.5em;
+    }
+    .about-text {
+        width: 100%;
+    }
+}
+.avatar {
+    display: block;
+    margin: 0 auto 1.5em auto;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.12);
+    border: 4px solid #fff;
+    background: #e0e6ed;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f9fb;
+    color: #222;
+}
+
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0.2em 0 0.1em 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+header p {
+    margin: 0 0 1em 0;
+    font-size: 1.2em;
+    color: #b0c4d6;
+}
+nav {
+    margin-bottom: 1em;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ffd700;
+}
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    padding: 2em;
+}
+section {
+    margin-bottom: 2em;
+}
+section h2 {
+    color: #2d3e50;
+    border-bottom: 2px solid #e0e6ed;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+ul {
+    padding-left: 1.2em;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #2d3e50;
+    color: #b0c4d6;
+    font-size: 0.95em;
+    margin-top: 2em;
+}
+@media (max-width: 600px) {
+    main {
+        padding: 1em;
+    }
+    header h1 {
+        font-size: 1.5em;
+    }
+    nav a {
+        margin: 0 0.5em;
+    }
+}
